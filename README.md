@@ -2,7 +2,7 @@
 contains Sequential methods to solve NLP problems and prerequisites
 
 
-# Local LLM 🤖
+# 1-Local LLM 🤖
 
 Local LLM is an AI assistant built using a local language model. It uses the book "Surely You're Joking, Mr. Feynman!" as a knowledge source.
 
