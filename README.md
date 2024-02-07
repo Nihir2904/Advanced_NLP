@@ -8,7 +8,8 @@ Local LLM is an AI assistant built using a local language model. It uses the boo
 
 ## Key Features 🚀
 
-- Locally hosted LLaMA model for privacy and control
+- Locally loaded LLaMA model for privacy and control
+- Uses retreival augmented generation technique contextualize the model with some privately owned data
 - Trained on "Surely You're Joking, Mr. Feynman!" for more personality 
 - Built with LangChain for easy retriever-reader chaining
 - Integrated with Chainlit for prototype UI
@@ -17,7 +18,7 @@ Local LLM is an AI assistant built using a local language model. It uses the boo
 
 The project contains the following key files:
 
-- `ingest.py`: Scrapes PDF books and indexes them into a vector DB for retrieval  
+- `ingest.py`: Scrapes PDF files and indexes them into a vector DB for retrieval  
 - `model.py`: Chains the LLaMA model with the vector DB to create a conversational retriever-reader
 - `chainlit.md`: Basic Chainlit app for prototyping a chat UI 
 
